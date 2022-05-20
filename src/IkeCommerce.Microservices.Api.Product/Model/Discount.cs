@@ -14,6 +14,9 @@ namespace IkeCommerce.Microservices.Api.Product.Model
         public DateTime ModifiedAt { get; set; }
         public DateTime DeletedAt { get; set; }
 
+        /// <summary>
+        /// Establishes the one-to-many relationship
+        /// </summary>
         public ICollection<Product> ProductList { get; set; }
     }
 }
