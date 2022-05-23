@@ -5,12 +5,12 @@ namespace IkeCommerce.Microservices.Api.Product.Model
 {
     public class ProductCategory
     {
-        public int Id { get; set; }
+        public int ProductCategoryId { get; set; }
         public string Name { get; set; }
-        public string Desc { get; set; }
+        public string Desciption { get; set; }
         public DateTime CreatedAt { get; set; }
-        public DateTime ModifiedAt { get; set; }
-        public DateTime DeletedAt { get; set; }
+        public DateTime? ModifiedAt { get; set; }
+        public DateTime? DeletedAt { get; set; }
 
         /// <summary>
         /// Establishes the one-to-many relationship
