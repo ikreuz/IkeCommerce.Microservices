@@ -1,7 +1,6 @@
 # Proof of concept in microservices
 
-E-Commerce
-
+Proof of concept E-Commerce
 
 ## Table of contents
 
