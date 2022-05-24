@@ -1,12 +1,13 @@
-# Proof of concept Microservices-e-commerce
+# Proof of concept in microservices
+
+E-Commerce
 
 
 ## Table of contents
 
 - [Proof of concept - ](#Proff-of-concept-microservices---e-commerce)
   - [Table of contents](#table-of-contents)
-  - [Overview](#overview)
-    - [The challenge](#the-challenge)
+  - [Overview](#overview)   
     - [Screenshot](#screenshot)
     - [Links](#links)
   - [My process](#my-process)
@@ -17,11 +18,6 @@
 
 ## Overview
 
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
 
