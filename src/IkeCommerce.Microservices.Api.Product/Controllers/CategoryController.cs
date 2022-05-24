@@ -2,6 +2,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace IkeCommerce.Microservices.Api.Product.Controllers
@@ -22,5 +23,12 @@ namespace IkeCommerce.Microservices.Api.Product.Controllers
         {
             return await _mediator.Send(data);
         }
+
+        [HttpGet]
+        public async Task<ActionResult<List<Product.Model.ProductCategory>>> GetProductCategory()
+        {
+            return await _mediator.Send(new QueryCategory.ExecuteApplication());
+        }
+
     }
 }
